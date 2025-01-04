@@ -4,7 +4,7 @@ var Validations;
     Validations.validateText = (text) => {
         return text.length > 3 ? true : false;
     };
-    const validateDate = (myDate) => {
+    Validations.validateDate = (myDate) => {
         return isNaN(myDate.valueOf()) ? false : true;
     };
 })(Validations || (Validations = {}));
