@@ -1,5 +1,10 @@
-import { Hero } from "./classes/Hero";
+import { genericFunctionArrow } from "./generics/generics";
 
-const ironman = new Hero("Ironman", 10, 55);
+// printObject(123);
+// printObject(new Date());
+// printObject([1, 2, 3, 4, 5, 6, 7]);
 
-console.log(ironman.power);
+const name = "nico";
+
+console.log(genericFunctionArrow(3.141616).toFixed(2));
+console.log(genericFunctionArrow(name).toUpperCase());
